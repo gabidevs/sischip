@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+
+#image {
+    width: 300px;
+    margin: 0px auto;
+}
+
+h4 {
+    text-align: center;
+    text-size-adjust: inherit;
+}

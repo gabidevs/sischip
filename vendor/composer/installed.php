@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'gabidevs/chip_control',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'coffeecode/datalayer' => array(
+            'pretty_version' => '2.0.6',
+            'version' => '2.0.6.0',
+            'reference' => 'acd0282698a9a16846c0bee72dcec0284fdc6600',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coffeecode/datalayer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'gabidevs/chip_control' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'league/csv' => array(
+            'pretty_version' => '9.8.0',
+            'version' => '9.8.0.0',
+            'reference' => '9d2e0265c5d90f5dd601bc65ff717e05cec19b47',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/csv',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
